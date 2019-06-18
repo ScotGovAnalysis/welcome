@@ -15,7 +15,7 @@ You are responsible for anything you share online. Before sharing anything on Gi
 
 - Certain legislation may apply to your work such as [the GDPR](https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/) and the [Data Protection Act 2018](https://ico.org.uk/for-organisations/data-protection-act-2018/)
 - You may be bound by the [Code of Practice for Statistics](https://www.statisticsauthority.gov.uk/code-of-practice/) (in particular [T6: Data governance](https://www.statisticsauthority.gov.uk/code-of-practice/the-code/trustworthiness/t6-data-governance/))
-- GitHub is a public space and stores a full history of your files
+- GitHub stores a full history of your files and this GitHub organisation is a public space
 - Your organisation may have an internal policy that covers coding in the open (e.g. an IT code of conduct)
 - It might be appropriate to do a risk assessment
 - Check with your line manager if you’re unsure of anything
