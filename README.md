@@ -3,12 +3,14 @@
 
 New to GitHub or this organisation? Welcome!
 
+This GitHub organisation is for analysts across Scotland’s public sector to code and collaborate in the open. You don’t need permission to code here. But you should read this guidance before starting.
+
 ## Why code in the open?
+There are many [benefits to coding in the open](https://gds.blog.gov.uk/2017/09/04/the-benefits-of-coding-in-the-open/) and the UK government has published guidance on [how to do it securely](https://technology.blog.gov.uk/2017/09/27/dont-be-afraid-to-code-in-the-open-heres-how-to-do-it-securely/). [Governments across the world](https://government.github.com/community/) are coding in the open and Scotland’s public sector is no exception (see [NHS Scotland](https://github.com/Health-SocialCare-Scotland) and [Marine Scotland](https://github.com/MarineScotlandScience/)).
+
 > Public services are built with public money. So unless there’s a good reason not to, the code they’re based should be made available for people to reuse and build on. **UK Government - [Digital Service Standard](https://www.gov.uk/service-manual/service-standard) (12. Make new source code open)**
 
 > Writing code is much easier if you don’t do it alone. Your goal should not be to strive in solitude for years before releasing the perfect package. Instead, work in the open, publishing not only the final product but every intermediate stage. If you work this way, you’ll get feedback much earlier in the process, and your motivation will remain high because you know people care. **Hadley Wickham - [Impact the world by being useful](http://bulletin.imstat.org/2014/12/hadley-wickham-impact-the-world-by-being-useful/)**
-
-There are many [benefits to coding in the open](https://gds.blog.gov.uk/2017/09/04/the-benefits-of-coding-in-the-open/) and the UK government has published guidance on [how to do it securely](https://technology.blog.gov.uk/2017/09/27/dont-be-afraid-to-code-in-the-open-heres-how-to-do-it-securely/). [Governments across the world](https://government.github.com/community/) are coding in the open and Scotland’s public sector is no exception (see [NHS Scotland](https://github.com/Health-SocialCare-Scotland) and [Marine Scotland](https://github.com/MarineScotlandScience/)). This GitHub organisation is for analysts across Scotland’s public sector to code and collaborate in the open. You don’t need permission to code here. But you should read this guidance before starting.
 
 ## Your responsibilities
 You are responsible for anything you share online. Before sharing anything on GitHub, reflect on your ethical, legal and professional obligations. Things to consider:
@@ -64,3 +66,4 @@ If you’re new to Git/GitHub it’s worth reflecting on how you learn best. A m
 - Ask joseph.adams@nrscotland.gov.uk for an invite to [DataScienceScotland](https://github.com/DataScienceScotland)
 - [Set your membership to public](https://help.github.com/en/articles/publicizing-or-hiding-organization-membership)
 - [Create a repo](https://help.github.com/en/articles/create-a-repo) and set DataScienceScotland as the owner. Make sure it’s relevant to other analysts within Scotland’s public sector. A relevant example might be: source code for an R Shiny app that accompanies an official statistic. A non-relevant example might be: code for a personal learning project.
+- Tell people about your repo
