@@ -66,4 +66,5 @@ If you’re new to Git/GitHub it’s worth reflecting on how you learn best. A m
 - Ask joseph.adams@nrscotland.gov.uk for an invite to [DataScienceScotland](https://github.com/DataScienceScotland)
 - [Set your membership to public](https://help.github.com/en/articles/publicizing-or-hiding-organization-membership)
 - [Create a repo](https://help.github.com/en/articles/create-a-repo) and set DataScienceScotland as the owner. Make sure it’s relevant to other analysts within Scotland’s public sector. A relevant example might be: source code for an R Shiny app that accompanies an official statistic. A non-relevant example might be: code for a personal learning project.
+- [Add topics to your repo](https://help.github.com/en/articles/classifying-your-repository-with-topics) to help keep them organised. Your topics can include things about what area your repo is used for (e.g. exports) or what organisation it is for.
 - Tell people about your repo
