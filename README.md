@@ -38,7 +38,7 @@ Use [pre-commit and pre-push hooks](https://github.com/ukgovdatascience/dotfiles
 These practices might be a little overwhelming if you’re new to coding in the open. It’s not vital to adopt everything from the beginning and some practices may not be appropriate for a given project. These are suggestions to learn over time. The easier ones are near the top:
 
 - Write [good READMEs](http://r-pkgs.had.co.nz/release.html#important-files)
-- Add a [status badge](https://www.repostatus.org/) to your README
+- Add a [lifecycle badge](https://www.tidyverse.org/lifecycle/) to your README
 - Use GitHub to [manage projects](https://youtu.be/nI5VdsVl0FM)
 - Use a [workflow strategy](https://youtu.be/aJnFGMclhU8)
 - Write [good commit messages](https://github.com/alphagov/styleguides/blob/master/git.md)
