@@ -54,6 +54,7 @@ If you’re new to Git/GitHub it’s worth reflecting on how you learn best. A m
   - The [govdatascience](govdatascience.slack.com) slack has a git channel
 - Git and GitHub
   - Jenny Bryan (Software engineer at RStudio) authored [Git and GitHub with R](https://happygitwithr.com/)
+  - A number of SAS products have [Git integration](https://blogs.sas.com/content/sasdummy/2019/01/17/git-in-sas/?utm_source=linkedin_company&utm_medium=social-sprinklr&utm_content=2690668069&utm_term=2690668069)
   - GitHub has a [community forum](https://github.community/), [guides](https://guides.github.com/), [YouTube tutorials](https://www.youtube.com/githubguides), a [learning lab](https://lab.github.com/), and this article on how to [set up Git](https://help.github.com/en/articles/set-up-git)
   - RStudio has an article on [version control with RStudio](https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN)
   - [Pro Git](https://git-scm.com/book/en/v2/) covers using Git on the command line
