@@ -49,7 +49,7 @@ If you’re new to Git/GitHub it’s worth reflecting on how you learn best. A m
 
 - Coding in the open
   - Anna Shipman (previous Open Source Lead at GDS) compiled these [resources for coding in the open](https://www.annashipman.co.uk/jfdi/open-code-resources.html)
-  - The [UK Government Licensing Framework](https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/) mandates the Open Government Licence (OGL) as the default licence for Crown bodies and recommends OGL for other public sector bodies.
+  - The National Archives advise that code created by civil servants is [subject to Crown copyright](https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/open-government-licence/open-software-licences/). The default licence for that is the Open Government Licence.
 - Networks
   - The [datasciencescotland](datasciencescotland.slack.com) slack has a version control channel
   - The [govdatascience](govdatascience.slack.com) slack has a git channel
