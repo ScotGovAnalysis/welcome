@@ -5,6 +5,18 @@ New to GitHub or this organisation? Welcome!
 
 This GitHub organisation is for analysts across Scotland’s public sector to code and collaborate in the open. You don’t need permission to code here. But you should read this guidance before starting.
 
+## Get started
+- Read the guidance below
+- Create a GitHub account
+- Enable [two-factor authentication](https://help.github.com/en/articles/about-two-factor-authentication) (@jsphdms personally finds LastPass Authenticator user friendly)
+- Add a (work appropriate) photo and username
+- Add your contact details and employer
+- Ask joseph.adams@nrscotland.gov.uk for an invite to [DataScienceScotland](https://github.com/DataScienceScotland)
+- [Set your membership to public](https://help.github.com/en/articles/publicizing-or-hiding-organization-membership)
+- [Create a repo](https://help.github.com/en/articles/create-a-repo) and set DataScienceScotland as the owner. Make sure it’s relevant to other analysts within Scotland’s public sector. A relevant example might be: source code for an R Shiny app that accompanies an official statistic. A non-relevant example might be: code for a personal learning project.
+- [Add topics to your repo](https://help.github.com/en/articles/classifying-your-repository-with-topics) to help keep them organised. Your topics can include things about what area your repo is used for (e.g. exports) or what organisation it is for.
+- Tell people about your repo
+
 ## Why code in the open?
 There are many [benefits to coding in the open](https://gds.blog.gov.uk/2017/09/04/the-benefits-of-coding-in-the-open/) and the UK government has published guidance on [how to do it securely](https://technology.blog.gov.uk/2017/09/27/dont-be-afraid-to-code-in-the-open-heres-how-to-do-it-securely/). [Governments across the world](https://government.github.com/community/) are coding in the open and Scotland’s public sector is no exception (see [NHS Scotland](https://github.com/Health-SocialCare-Scotland), [Marine Scotland](https://github.com/MarineScotlandScience/), and the [Improvement Service](https://github.com/improvement-service)).
 
@@ -59,14 +71,6 @@ If you’re new to Git/GitHub it’s worth reflecting on how you learn best. A m
   - GitHub has a [community forum](https://github.community/), [guides](https://guides.github.com/), [YouTube tutorials](https://www.youtube.com/githubguides), a [learning lab](https://lab.github.com/), and this article on how to [set up Git](https://help.github.com/en/articles/set-up-git)
   - RStudio has an article on [version control with RStudio](https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN)
   - [Pro Git](https://git-scm.com/book/en/v2/) covers using Git on the command line
-  
-## Next Steps
-- Create a GitHub account
-- Enable [two-factor authentication](https://help.github.com/en/articles/about-two-factor-authentication) (@jsphdms personally finds LastPass Authenticator user friendly)
-- Add a (work appropriate) photo and username
-- Add your contact details and employer
-- Ask joseph.adams@nrscotland.gov.uk for an invite to [DataScienceScotland](https://github.com/DataScienceScotland)
-- [Set your membership to public](https://help.github.com/en/articles/publicizing-or-hiding-organization-membership)
-- [Create a repo](https://help.github.com/en/articles/create-a-repo) and set DataScienceScotland as the owner. Make sure it’s relevant to other analysts within Scotland’s public sector. A relevant example might be: source code for an R Shiny app that accompanies an official statistic. A non-relevant example might be: code for a personal learning project.
-- [Add topics to your repo](https://help.github.com/en/articles/classifying-your-repository-with-topics) to help keep them organised. Your topics can include things about what area your repo is used for (e.g. exports) or what organisation it is for.
-- Tell people about your repo
+
+# Licence
+This repository is available under the [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
