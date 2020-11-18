@@ -1,3 +1,5 @@
+This document is a work in progress
+
 # Code review guidelines for R users
 
 > “The idea of code review is pretty simple: have other people review the code after someone wrote it.” - [Karl E. Wiegers](https://egoless.tech/code-review-essentials/)
