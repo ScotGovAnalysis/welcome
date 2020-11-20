@@ -57,17 +57,21 @@ Does it produce the expected and correct output?
 ### Understandable code
 Would a new start have difficulty understanding?
 
-### Complex or outdated techniques
+### Complex, outdated, or unusual code
 For example:
 * Maps made with sp instead of the more modern sf
-* Complicated homemade functions where a package function would suffice 
+* Homemade functions or a non-Tidyverse function when Tidyverse would suffice
+* Did the code need to be explained to you? Could it be simpler?
 
 ### Tests
 Is input data being automatically checked for validity and sanity?
+Are there any cases where it might break?
 
 ### Praise!
 Did the author do something well?
 Did you learn something from their code?
+
+> If you’re reviewing the code of a more experienced coder, it is a chance to learn and you have every right to ask for an explanation if there’s something that is unclear. It’s in everyone’s interest that you understand what you’re reading and it could be that you don’t understand it because the author has made a mistake or over-complicated something. - [MOJ DASD Coding Standards](https://moj-analytical-services.github.io/our-coding-standards/)
 
 ## How to volunteer as a reviewer
 You are welcome to volunteer as a code reviewer; regardless of experience. Follow these steps:
