@@ -37,7 +37,6 @@ Is input data being automatically checked for validity and sanity? Are there any
 Did the author do something well? Did you learn something from their code?
 
 ## Expected behaviour during code reviews
-Adapted from [Code Health: Respectful Reviews == Useful Reviews](https://web.archive.org/web/20201106154227/https:/testing.googleblog.com/2019/11/code-health-respectful-reviews-useful.html):
 
 ### Both parties
 * Assume competence and ask questions to gain understanding
@@ -51,8 +50,9 @@ Adapted from [Code Health: Respectful Reviews == Useful Reviews](https://web.arc
 ### Author
 * Clarify code or reply to the reviewer’s comment in response to feedback
 
+Adapted from [Code Health: Respectful Reviews == Useful Reviews](https://web.archive.org/web/20201106154227/https:/testing.googleblog.com/2019/11/code-health-respectful-reviews-useful.html).
+
 ## The benefits of code reviews
-Adapted from [Humanizing Peer Reviews](https://web.archive.org/web/20200923160357/https:/www.processimpact.com/articles/humanizing_reviews.pdf):
 
 ### Benefits for analysts
 * Better structured and documented work that is easier to understand and modify
@@ -68,6 +68,8 @@ Adapted from [Humanizing Peer Reviews](https://web.archive.org/web/2020092316035
 * Reduced lifetime maintenance costs, freeing resources for other work
 * Reduced impact from staff turnover through cross-training of team members
 * Better and earlier insight into project risks and quality issues
+
+Adapted from [Humanizing Peer Reviews](https://web.archive.org/web/20200923160357/https:/www.processimpact.com/articles/humanizing_reviews.pdf).
 
 ## Volunteer as a reviewer
 You are welcome to volunteer as a code reviewer; regardless of experience. Follow these steps:
