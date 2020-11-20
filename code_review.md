@@ -4,44 +4,26 @@ This document is a work in progress
 
 > “The idea of code review is pretty simple: have other people review the code after someone wrote it.” - [Karl E. Wiegers](https://egoless.tech/code-review-essentials/)
 
-## The benefits of code reviews
-Adapted from [Humanizing Peer Reviews](https://web.archive.org/web/20200923160357/https:/www.processimpact.com/articles/humanizing_reviews.pdf):
-
-### Benefits for analysts
-* Better structured and documented work that is easier to understand and modify
-* Better techniques learned from other developers
-* Less time spent reworking code
-* More robust designs that tolerate change
-* Ability to use results from previous reviews to make decisions
-
-### Benefits for managers
-* Improved teamwork, collaboration, and coding skills
-* Reduced chance of errors in outputs
-* Increased chance of completing the project on time
-* Reduced lifetime maintenance costs, freeing resources for other work
-* Reduced impact from staff turnover through cross-training of team members
-* Better and earlier insight into project risks and quality issues
-
-## Expected behaviour during code reviews
-Adapted from [Code Health: Respectful Reviews == Useful Reviews](https://web.archive.org/web/20201106154227/https:/testing.googleblog.com/2019/11/code-health-respectful-reviews-useful.html):
-
-### Both parties
-* Assume competence and ask questions to gain understanding
-* Provide rationale or context such as a best practices document or a style guide
-* Don’t criticize the person. Instead, discuss the code
-
-### Reviewer
-* Provide specific and actionable feedback
-* Clearly mark nitpicks and optional comments with the prefix ‘Optional’
-
-### Author
-* Clarify code or reply to the reviewer’s comment in response to feedback
-
 ## Checklist for reviewers
 First make sure you understand the real-world context behind the code and the problem it is trying to solve. Ask the author if you’re not sure. Summarise your review before going into detail and always try to include some praise. There is no such thing as perfect code or a complete review. So maximise the impact of your review by limiting yourself to no more than:
 * 1 hour of your time
 * 300 words
 * 10 most important points
+
+### Expected behaviour during code reviews
+Adapted from [Code Health: Respectful Reviews == Useful Reviews](https://web.archive.org/web/20201106154227/https:/testing.googleblog.com/2019/11/code-health-respectful-reviews-useful.html):
+
+#### Both parties
+* Assume competence and ask questions to gain understanding
+* Provide rationale or context such as a best practices document or a style guide
+* Don’t criticize the person. Instead, discuss the code
+
+#### Reviewer
+* Provide specific and actionable feedback
+* Clearly mark nitpicks and optional comments with the prefix ‘Optional’
+
+#### Author
+* Clarify code or reply to the reviewer’s comment in response to feedback
 
 Use this list as a prompt for what to review. But don’t feel limited by it. You can bring other things to the review that you think will help the author.
 
@@ -73,7 +55,25 @@ Did you learn something from their code?
 
 > If you’re reviewing the code of a more experienced coder, it is a chance to learn and you have every right to ask for an explanation if there’s something that is unclear. It’s in everyone’s interest that you understand what you’re reading and it could be that you don’t understand it because the author has made a mistake or over-complicated something. - [MOJ DASD Coding Standards](https://moj-analytical-services.github.io/our-coding-standards/)
 
-## How to volunteer as a reviewer
+## The benefits of code reviews
+Adapted from [Humanizing Peer Reviews](https://web.archive.org/web/20200923160357/https:/www.processimpact.com/articles/humanizing_reviews.pdf):
+
+### Benefits for analysts
+* Better structured and documented work that is easier to understand and modify
+* Better techniques learned from other developers
+* Less time spent reworking code
+* More robust designs that tolerate change
+* Ability to use results from previous reviews to make decisions
+
+### Benefits for managers
+* Improved teamwork, collaboration, and coding skills
+* Reduced chance of errors in outputs
+* Increased chance of completing the project on time
+* Reduced lifetime maintenance costs, freeing resources for other work
+* Reduced impact from staff turnover through cross-training of team members
+* Better and earlier insight into project risks and quality issues
+
+## Volunteer as a reviewer
 You are welcome to volunteer as a code reviewer; regardless of experience. Follow these steps:
 1. Read/watch these materials (~90 mins):
     1. [Code Review Essentials](https://egoless.tech/code-review-essentials/)
