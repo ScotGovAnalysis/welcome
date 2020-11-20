@@ -10,6 +10,36 @@ First make sure you understand the real-world context behind the code and the pr
 * 300 words
 * 10 most important points
 
+Use this list as a prompt for what to review. But don’t feel limited by it. You can bring other things to the review that you think will help the author.
+
+### :heavy_check_mark: Clearly organised files
+Is it clear which file is the overarching script (i.e. that runs through all necessary steps and scripts)? Can you easily see how all the files relate to each other? Could scripts be split into categories? For example: utility functions, data import, and graphical output.
+
+### :heavy_check_mark: Good coding practices
+Don’t go into detail on specific style issues. If style comes up, recommend tidyverse and lintr.
+
+### :heavy_check_mark: Runs on your machine
+Does it produce the expected and correct output?
+
+### :heavy_check_mark: Understandable code
+Would a new start have difficulty understanding?
+
+### :heavy_check_mark: Simple code
+Watch out for things like:
+* Complicated homemade functions when a Tidyverse function would suffice
+* Code that needed to be explained to you
+
+### :heavy_check_mark: Well-chosen packages
+Do you see any niche, outdated, or arbitrarily chosen packages?
+
+### :heavy_check_mark: Appropriate testing
+Is input data being automatically checked for validity and sanity?
+Are there any cases where it might break?
+
+### :heart: Remember to praise!
+Did the author do something well?
+Did you learn something from their code?
+
 ### Expected behaviour during code reviews
 Adapted from [Code Health: Respectful Reviews == Useful Reviews](https://web.archive.org/web/20201106154227/https:/testing.googleblog.com/2019/11/code-health-respectful-reviews-useful.html):
 
@@ -25,35 +55,8 @@ Adapted from [Code Health: Respectful Reviews == Useful Reviews](https://web.arc
 #### Author
 * Clarify code or reply to the reviewer’s comment in response to feedback
 
-Use this list as a prompt for what to review. But don’t feel limited by it. You can bring other things to the review that you think will help the author.
-
-### Clearly organised files
-Is it clear which file is the overarching script (i.e. that runs through all necessary steps and scripts)? Can you easily see how all the files relate to each other? Could scripts be split into categories? For example: utility functions, data import, and graphical output.
-
-### Good coding practices
-Don’t go into detail on specific style issues. If style comes up, recommend tidyverse and lintr.
-
-### Does the code run?
-Does it produce the expected and correct output?
-
-### Understandable code
-Would a new start have difficulty understanding?
-
-### Complex, outdated, or unusual code
-For example:
-* Maps made with sp instead of the more modern sf
-* Homemade functions or a non-Tidyverse function when Tidyverse would suffice
-* Did the code need to be explained to you? Could it be simpler?
-
-### Tests
-Is input data being automatically checked for validity and sanity?
-Are there any cases where it might break?
-
-### Praise!
-Did the author do something well?
-Did you learn something from their code?
-
-> If you’re reviewing the code of a more experienced coder, it is a chance to learn and you have every right to ask for an explanation if there’s something that is unclear. It’s in everyone’s interest that you understand what you’re reading and it could be that you don’t understand it because the author has made a mistake or over-complicated something. - [MOJ DASD Coding Standards](https://moj-analytical-services.github.io/our-coding-standards/)
+### Reviewing the code of a more experienced coder
+> [This] is a chance to learn and you have every right to ask for an explanation if there’s something that is unclear. It’s in everyone’s interest that you understand what you’re reading and it could be that you don’t understand it because the author has made a mistake or over-complicated something. - [MOJ DASD Coding Standards](https://moj-analytical-services.github.io/our-coding-standards/)
 
 ## The benefits of code reviews
 Adapted from [Humanizing Peer Reviews](https://web.archive.org/web/20200923160357/https:/www.processimpact.com/articles/humanizing_reviews.pdf):
