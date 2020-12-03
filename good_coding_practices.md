@@ -74,7 +74,6 @@ Making code easier to understand and modify without changing it's behaviour
 * `casewhen()` creates an a more readable way of dealing with many ifelse statements. `ifelse` statements can be very useful but can become hard to understand if too many are used.
 * **Stop Early!** Move quick `stop()`s and `return()`s to the top of the function
   * When `if` statements `stop()` or `return()` they do not need an else
-  * [Example](https://github.com/rhi-batstone/code_best_practice/blob/main/early_stops.PNG) from [Jenny Bryan](https://github.com/jennybc/code-smells-and-feels/blob/master/2018-07_user-brisbane-bryan.pdf)
 ### Don't
 * Don't use deeply nested `for` loops `ifelse` statements
   
