@@ -76,8 +76,7 @@ Making code easier to understand and modify without changing it's behaviour
   * When `if` statements `stop()` or `return()` they do not need an else
   * [Example](https://github.com/rhi-batstone/code_best_practice/blob/main/early_stops.PNG) from [Jenny Bryan](https://github.com/jennybc/code-smells-and-feels/blob/master/2018-07_user-brisbane-bryan.pdf)
 ### Don't
-    * Don't use deeply nested `for` loops `ifelse` statements
-   
+* Don't use deeply nested `for` loops `ifelse` statements
   
 ## Use functions
   * **D**on't **R**epeat **Y**ourself [(DRY)](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
