@@ -60,8 +60,8 @@ Making code easier to understand and modify without changing it's behaviour
           * It won't work if any files move
       
 ## Keep scripts short
-  * A reasonable length is ideally less than 250 lines. This keeps them more manageable
   * **DO**
+      * Ideally keep to fewer than 250 lines. This makes scripts more manageable
       * Break up and `source()` sections like data processing, and variable or function assigning
   * **DON'T**
       * Keep everything for a large project in one script
