@@ -33,10 +33,10 @@ Making code easier to understand and modify without changing it's behaviour
       
       
 ## Comment code
-### DO
+### Do
 * Where neccessary, comment code 
 * Explain _**why**_ it is doing what it is doing. This will make it easier for users to know what the code is for
-### DON'T
+### Don't
 * Don't just explain *what* it is doing
 * Remove any commented *just-in-case* code that isn't needed
 * Don't rely on (un)commenting code to change behaviour
@@ -51,31 +51,31 @@ Making code easier to understand and modify without changing it's behaviour
     * `height_in_metres()` is better than `converter()` for a function that converts height into metres. This makes it more obvious what your code is doinganmd makes your code more readable
   
 ## Avoid absolute file paths
-### DO
+### Do
 * Use the library [`here()`](https://github.com/krlmlr/here)
 * Work within an [R project](https://support.rstudio.com/hc/en-us/articles/200526207-Using-Projects)
-### DON'T** 
+### Don't
 * Use absolute file paths as this reduces the reproducability of the code
     * It won't work on another users computer
     * It won't work if any files move
       
 ## Keep scripts short
-### DO
+### Do
 * Ideally keep to fewer than 250 lines. This makes scripts more manageable
 * Break up and `source()` sections like data processing, and variable or function assigning
-### DON'T
+### Don't
 * Keep everything for a large project in one script  
     * For example, break up the UI, Server & Golbal sections of a large [Shiny app](https://shiny.rstudio.com/articles/basics.html)
   
  
   
 ## Nested for loops and ifelse statements
-### DO
+### Do
 * `casewhen()` creates an a more readable way of dealing with many ifelse statements. `ifelse` statements can be very useful but can become hard to understand if too many are used.
 * **Stop Early!** Move quick `stop()`s and `return()`s to the top of the function
   * When `if` statements `stop()` or `return()` they do not need an else
   * [Example](https://github.com/rhi-batstone/code_best_practice/blob/main/early_stops.PNG) from [Jenny Bryan](https://github.com/jennybc/code-smells-and-feels/blob/master/2018-07_user-brisbane-bryan.pdf)
-### DON'T
+### Don't
     * Don't use deeply nested `for` loops `ifelse` statements
    
   
@@ -96,13 +96,13 @@ Making code easier to understand and modify without changing it's behaviour
       
   
 ## Code in the open 
-### DO
+### Do
 * Code in the open if you can [Data Science Scotland GitHub](https://github.com/DataScienceScotland)
 * Coding in the open encourages:
      * The use of good code practice so others can read your code
      * Collaboration
      * Code reviews and [pull requests](https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/creating-an-issue-or-pull-request)
-### DON'T
+### Don't
 * Share sensitive information such as unpublished data, API keys or passwords
   
 ## Reduce object clutter
