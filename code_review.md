@@ -16,9 +16,7 @@ Use this list as a prompt for what to review. But don’t feel limited by it. Yo
 Is it clear which file is the overarching script (i.e. that runs through all necessary steps and scripts)? Can you easily see how all the files relate to each other? Could scripts be split into categories? For example: utility functions, data import, and graphical output.
 
 ### :heavy_check_mark: Good coding practices
-*Rhi is working on a separate document for this*
-
-Don’t go into detail on specific style issues. If style comes up, recommend tidyverse and lintr.
+Does it follow these [good practices](https://github.com/DataScienceScotland/welcome/blob/master/good_coding_practices.md)? Don’t go into detail on specific style issues. If style comes up, recommend tidyverse and lintr.
 
 ### :heavy_check_mark: Runs on your machine
 Does it produce the expected and correct output?
