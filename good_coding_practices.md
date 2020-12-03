@@ -87,10 +87,10 @@ Making code easier to understand and modify without changing it's behaviour
 ## Automate checks for input data
 * Automate the new data checks so you don't miss anything unexpected. Especially if you expect the data to be updated
 * For example, automate checks for:
-      * Outliers
-      * NA's
-      * Class
-      * Expected column names
+    * Outliers
+    * NA's
+    * Class
+    * Expected column names
       
   
 ## Code in the open 
