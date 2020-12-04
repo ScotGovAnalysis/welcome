@@ -37,9 +37,9 @@ Making code easier to understand and modify without changing it's behaviour
 * Where neccessary, comment code 
 * Explain _**why**_ it is doing what it is doing. This will make it easier for users to know what the code is for
 ### Don't
-* Don't just explain *what* it is doing
+* Just explain *what* it is doing
 * Remove any commented *just-in-case* code that isn't needed
-* Don't rely on (un)commenting code to change behaviour
+* Rely on (un)commenting code to change behaviour
     * You can quickly lose track!
   
 ## Use a style guide 
@@ -75,7 +75,7 @@ Making code easier to understand and modify without changing it's behaviour
 * **Stop Early!** Move quick `stop()`s and `return()`s to the top of the function
   * When `if` statements `stop()` or `return()` they do not need an else
 ### Don't
-* Don't use deeply nested `for` loops `ifelse` statements
+* Use deeply nested `for` loops `ifelse` statements
   
 ## Use functions
   * **D**on't **R**epeat **Y**ourself [(DRY)](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
