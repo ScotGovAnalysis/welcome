@@ -68,8 +68,10 @@ Making code easier to understand and modify without changing it's behaviour
 ## Avoid absolute file paths
 ### Do
 * Use relative file paths
-    * Use the library [`here()`](https://github.com/krlmlr/here)
-    * Work within an [R project](https://support.rstudio.com/hc/en-us/articles/200526207-Using-Projects)
+    * Use the library [`here()`](https://www.rdocumentation.org/packages/here/versions/1.0.0)
+      * `here()` finds your project files based on the current working directory at the time when the package is loaded.
+    * Work within an [R Project](https://support.rstudio.com/hc/en-us/articles/200526207-Using-Projects)
+      * R Projects act as your working directory, where the root is the directory created, or chosen, when setting up a new project.  
 ### Don't
 * Use absolute file paths as this reduces the reproducability of the code
     * It won't work on another users computer
