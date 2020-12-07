@@ -18,24 +18,39 @@ Making code easier to understand and modify without changing it's behaviour
 - [Automate checks for input data](#automate-checks-for-input-data)
 - [Code in the open](#code-in-the-open)
 
-
-
 ## Make a README 
-  * Here is the [GDS guidance on writing READMEs](https://gds-way.cloudapps.digital/manuals/readme-guidance.html#writing-readmes)
+  * Here is the [Gov Data Science guidance on writing READMEs](https://gds-way.cloudapps.digital/manuals/readme-guidance.html#writing-readmes)
   * Include
       * Contact details
       * How to run the code
-      * A licence (SG default is [OGL](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/))
+      * A licence (SG default is [Open Government Licence](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/))
       * An estimate of run time if it takes longer than a couple minutes
   * README's should help the user: 
       * Understand what the project is
       * Learn how to use the project
       
-      
 ## Comment code
 ### Do
 * Where neccessary, comment code 
+* Use comments to break up the code sections (Ctrl + Shift + R)
+    ```
+    # Load data ---------------------------
+
+    # Clean data ---------------------------
+    ```
 * Explain _**why**_ it is doing what it is doing. This will make it easier for users to know what the code is for
+
+    #### Good Comment:
+    ``` 
+    data %<% 
+       select(1:161)  # column 161 is where the data stops and it becomes footnotes
+    ```
+    #### Bad comment:
+    ``` 
+    data %<% 
+       select(1:161)  # selecting columns
+    ```
+
 ### Don't
 * Just explain *what* it is doing
 * Remove any commented *just-in-case* code that isn't needed
@@ -52,8 +67,9 @@ Making code easier to understand and modify without changing it's behaviour
   
 ## Avoid absolute file paths
 ### Do
-* Use the library [`here()`](https://github.com/krlmlr/here)
-* Work within an [R project](https://support.rstudio.com/hc/en-us/articles/200526207-Using-Projects)
+* Use relative file paths
+    * Use the library [`here()`](https://github.com/krlmlr/here)
+    * Work within an [R project](https://support.rstudio.com/hc/en-us/articles/200526207-Using-Projects)
 ### Don't
 * Use absolute file paths as this reduces the reproducability of the code
     * It won't work on another users computer
@@ -67,17 +83,16 @@ Making code easier to understand and modify without changing it's behaviour
 * Keep everything for a large project in one script  
     * For example, break up the UI, Server & Golbal sections of a large [Shiny app](https://shiny.rstudio.com/articles/basics.html)
   
- 
-  
 ## Nested for loops and ifelse statements
 ### Do
 * `casewhen()` creates an a more readable way of dealing with many ifelse statements. `ifelse` statements can be very useful but can become hard to understand if too many are used.
 * **Stop Early!** Move quick `stop()`s and `return()`s to the top of the function
   * When `if` statements `stop()` or `return()` they do not need an else
 ### Don't
-* Use deeply nested `for` loops `ifelse` statements
+* Use deeply nested `for` loops or `ifelse` statements
   
 ## Use functions
+  * Functions allow you to automate common tasks rather than repeatedly writing the same code. [R for Data Science] (https://r4ds.had.co.nz/functions.html) provides a good explanation for using functions. 
   * **D**on't **R**epeat **Y**ourself [(DRY)](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
       * If you are repeating code, create a function to do it for you
   * Use several smaller functions rather that one large one. This includes small, well named, helper functions
@@ -92,19 +107,17 @@ Making code easier to understand and modify without changing it's behaviour
     * Class
     * Expected column names
       
-  
 ## Code in the open 
 ### Do
-* Code in the open if you can [Data Science Scotland GitHub](https://github.com/DataScienceScotland)
 * Coding in the open encourages:
      * The use of good code practice so others can read your code
      * Collaboration
      * Code reviews and [pull requests](https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/creating-an-issue-or-pull-request)
+* Code in the open if you can, e.g. use [Data Science Scotland GitHub](https://github.com/DataScienceScotland)
 ### Don't
 * Share sensitive information such as unpublished data, API keys or passwords
   
 ## Reduce object clutter
 * If you have many objects, consider nesting them into a list to keep the environment tidy
-
 
 
