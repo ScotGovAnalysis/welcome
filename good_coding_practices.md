@@ -92,7 +92,7 @@ Making code easier to understand and modify without changing it's behaviour
 * Use deeply nested `for` loops or `ifelse` statements
   
 ## Use functions
-  * Functions allow you to automate common tasks rather than repeatedly writing the same code. [R for Data Science] (https://r4ds.had.co.nz/functions.html) provides a good explanation for using functions. 
+  * Functions allow you to automate common tasks rather than repeatedly writing the same code. [R for Data Science](https://r4ds.had.co.nz/functions.html) provides a good explanation for using functions. 
   * **D**on't **R**epeat **Y**ourself [(DRY)](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
       * If you are repeating code, create a function to do it for you
   * Use several smaller functions rather that one large one. This includes small, well named, helper functions
