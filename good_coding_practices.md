@@ -85,11 +85,9 @@ Making code easier to understand and modify without changing it's behaviour
 * Keep everything for a large project in one script  
     * For example, break up the UI, Server & Golbal sections of a large [Shiny app](https://shiny.rstudio.com/articles/basics.html)
   
-## Nested for loops and ifelse statements
+## Write code for humans
 ### Do
 * `casewhen()` creates an a more readable way of dealing with many ifelse statements. `ifelse` statements can be very useful but can become hard to understand if too many are used.
-* **Stop Early!** Move quick `stop()`s and `return()`s to the top of the function
-  * When `if` statements `stop()` or `return()` they do not need an else
 ### Don't
 * Use deeply nested `for` loops or `ifelse` statements
   
