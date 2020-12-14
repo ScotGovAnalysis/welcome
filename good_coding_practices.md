@@ -23,7 +23,7 @@ Making code easier to understand and modify without changing it's behaviour
   * Include
       * Contact details
       * How to run the code
-      * A licence (SG default is [Open Government Licence](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/))
+      * A licence (Scottish Government default is [Open Government Licence](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/))
       * An estimate of run time if it takes longer than a couple minutes
   * README's should help the user: 
       * Understand what the project is
