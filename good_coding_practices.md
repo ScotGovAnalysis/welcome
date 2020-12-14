@@ -118,8 +118,4 @@ Making code easier to understand and modify without changing it's behaviour
 * Code in the open if you can, e.g. use [Data Science Scotland GitHub](https://github.com/DataScienceScotland)
 ### Don't
 * Share sensitive information such as unpublished data, API keys or passwords
-  
-## Reduce object clutter
-* If you have many objects, consider nesting them into a list to keep the environment tidy
-
 
