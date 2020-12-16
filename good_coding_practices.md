@@ -89,7 +89,8 @@ Making code easier to understand and modify without changing it's behaviour
   
 ## [Write code for humans](http://douglasorr.github.io/2020-03-data-for-machines/article.html)
 > "Code is read more often than it is written." — [Guido van Rossum](https://twitter.com/gvanrossum) (creator of Python)
-> "•	Programs are meant to be read by humans and only incidentally for computers to execute." — Donald Knuth, The Art of Computer Programming"
+
+> "Programs are meant to be read by humans and only incidentally for computers to execute." — Donald Knuth, The Art of Computer Programming"
 ### Do
 * `casewhen()` creates an a more readable way of dealing with many ifelse statements. `ifelse` statements can be very useful but can become hard to understand if too many are used.
 ### Don't
