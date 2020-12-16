@@ -30,6 +30,8 @@ Making code easier to understand and modify without changing it's behaviour
       * Learn how to use the project
       
 ## Comment code
+> "When you feel the need to write a comment, first try to refactor the code so that any comment becomes superfluous." – Martin Fowler, Refactoring
+
 ### Do
 * Where neccessary, comment code 
 * Use comments to break up the code sections (Ctrl + Shift + R)
@@ -85,7 +87,9 @@ Making code easier to understand and modify without changing it's behaviour
 * Keep everything for a large project in one script  
     * For example, break up the UI, Server & Golbal sections of a large [Shiny app](https://shiny.rstudio.com/articles/basics.html)
   
-## Write code for humans
+## [Write code for humans](http://douglasorr.github.io/2020-03-data-for-machines/article.html)
+> "Code is read more often than it is written." — [Guido van Rossum](https://twitter.com/gvanrossum) (creator of Python)
+> "•	Programs are meant to be read by humans and only incidentally for computers to execute." — Donald Knuth, The Art of Computer Programming"
 ### Do
 * `casewhen()` creates an a more readable way of dealing with many ifelse statements. `ifelse` statements can be very useful but can become hard to understand if too many are used.
 ### Don't
