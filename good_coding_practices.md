@@ -9,11 +9,11 @@ Making code easier to understand and modify without changing it's behaviour
 
 ## Contents
 - [Make a README](#make-a-readme)
-- [Comment code](#comment-code)
 - [Use a style guide](#use-a-style-guide)
+- [Write code for humans](#write-code-for-humans)
+- [Comment code](#comment-code)
 - [Avoid absolute file paths](#avoid-absolute-file-paths)
 - [Keep scripts short](#keep-scripts-short)
-- [Nested for loops and ifelse statements](#nested-for-loops-and-ifelse-statements)
 - [Use functions](#use-functions)
 - [Automate checks for input data](#automate-checks-for-input-data)
 - [Code in the open](#code-in-the-open)
@@ -28,7 +28,28 @@ Making code easier to understand and modify without changing it's behaviour
   * README's should help the user: 
       * Understand what the project is
       * Learn how to use the project
-      
+  
+## Use a style guide 
+* The default for Scottish Government is the [Tidyverse styleguide](https://style.tidyverse.org/)
+* Lint your code
+    * **Linting**: The automated checking of your source code for programmatic and stylistic errors
+    * [Lintr](https://github.com/jimhester/lintr) checks your code for style, syntax errors and possible semantic issues
+* Use meaningful object names
+    * `height_in_metres()` is better than `converter()` for a function that converts height into metres. This makes it more obvious what your code is doinganmd makes your code more readable
+
+## [Write code for humans](http://douglasorr.github.io/2020-03-data-for-machines/article.html)
+> "Code is read more often than it is written." — [Guido van Rossum](https://twitter.com/gvanrossum) (creator of Python)
+
+> "Programs are meant to be read by humans and only incidentally for computers to execute." — Donald Knuth, The Art of Computer Programming"
+
+Writing code that humans can understand is an investment to have maintainable and reusable code. If it is easy to read, maintenance and  will be much quicker in the future and it will be much easier for other people to work with your code. 
+The shortest, most efficient code for the computer is likely not the optimal code for human readability. 
+
+### Do
+* `casewhen()` creates an a more readable way of dealing with many ifelse statements. `ifelse` statements can be very useful but can become hard to understand if too many are used.
+### Don't
+* Use deeply nested `for` loops or `ifelse` statements
+
 ## Comment code
 > "When you feel the need to write a comment, first try to refactor the code so that any comment becomes superfluous." – Martin Fowler, Refactoring
 
@@ -58,15 +79,7 @@ Making code easier to understand and modify without changing it's behaviour
 * Remove any commented *just-in-case* code that isn't needed
 * Rely on (un)commenting code to change behaviour
     * You can quickly lose track!
-  
-## Use a style guide 
-* The default for Scottish Government is the [Tidyverse styleguide](https://style.tidyverse.org/)
-* Lint your code
-    * **Linting**: The automated checking of your source code for programmatic and stylistic errors
-    * [Lintr](https://github.com/jimhester/lintr) checks your code for style, syntax errors and possible semantic issues
-* Use meaningful object names
-    * `height_in_metres()` is better than `converter()` for a function that converts height into metres. This makes it more obvious what your code is doinganmd makes your code more readable
-  
+
 ## Avoid absolute file paths
 ### Do
 * Use relative file paths
@@ -86,16 +99,7 @@ Making code easier to understand and modify without changing it's behaviour
 ### Don't
 * Keep everything for a large project in one script  
     * For example, break up the UI, Server & Golbal sections of a large [Shiny app](https://shiny.rstudio.com/articles/basics.html)
-  
-## [Write code for humans](http://douglasorr.github.io/2020-03-data-for-machines/article.html)
-> "Code is read more often than it is written." — [Guido van Rossum](https://twitter.com/gvanrossum) (creator of Python)
 
-> "Programs are meant to be read by humans and only incidentally for computers to execute." — Donald Knuth, The Art of Computer Programming"
-### Do
-* `casewhen()` creates an a more readable way of dealing with many ifelse statements. `ifelse` statements can be very useful but can become hard to understand if too many are used.
-### Don't
-* Use deeply nested `for` loops or `ifelse` statements
-  
 ## Use functions
   * Functions allow you to automate common tasks rather than repeatedly writing the same code. [R for Data Science](https://r4ds.had.co.nz/functions.html) provides a good explanation for using functions. 
   * **D**on't **R**epeat **Y**ourself [(DRY)](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
