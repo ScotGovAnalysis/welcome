@@ -54,6 +54,8 @@ Adapted from [Code Health: Respectful Reviews == Useful Reviews](https://web.arc
 
 ## The benefits of code reviews
 
+**Careful!** Code reviews don't guarantee correctness. Especially for domain specific knowledge or statistical techniques.
+
 ### Benefits for analysts
 * Better structured and documented work that is easier to understand and modify
 * Better techniques learned from other developers
