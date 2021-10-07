@@ -7,7 +7,8 @@ This GitHub organisation is for analysts across Scotland’s public sector to co
 
 ## Get started
 - Read the guidance below
-- Create a GitHub account
+- Create a GitHub account with your work email address
+  - Some people use their GitHub accounts for things that aren’t part of their job, such as personal projects or freelance work. If this applies to you, add a personal email address and then make sure you author commits with the appropriate email address, depending on the project you’re working on.
 - Enable [two-factor authentication](https://help.github.com/en/articles/about-two-factor-authentication) (@jsphdms personally finds LastPass Authenticator user friendly)
 - Add a (work appropriate) photo and username
 - Add your contact details and employer
