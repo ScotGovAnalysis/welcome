@@ -21,7 +21,7 @@ Analysts in Scottish Government and departments should use this GitHub organisat
 - Tell people about your repo
 
 ## Why code in the open?
-There are many [benefits to coding in the open](https://gds.blog.gov.uk/2017/09/04/the-benefits-of-coding-in-the-open/) and the UK government has published guidance on [how to do it securely](https://technology.blog.gov.uk/2017/09/27/dont-be-afraid-to-code-in-the-open-heres-how-to-do-it-securely/). [Governments across the world](https://government.github.com/community/) are coding in the open and Scotland’s public sector is no exception (see [NHS Scotland](https://github.com/Health-SocialCare-Scotland), [Marine Scotland](https://github.com/MarineScotlandScience/), and the [Improvement Service](https://github.com/improvement-service)).
+There are many [benefits to coding in the open](https://gds.blog.gov.uk/2017/09/04/the-benefits-of-coding-in-the-open/) and the UK government has published guidance on [how to do it securely](https://technology.blog.gov.uk/2017/09/27/dont-be-afraid-to-code-in-the-open-heres-how-to-do-it-securely/). [Governments across the world](https://government.github.com/community/) are coding in the open and Scotland’s public sector is no exception (see [Public Health Scotland](https://github.com/Public-Health-Scotland), [Marine Scotland](https://github.com/MarineScotlandScience/), and the [Improvement Service](https://github.com/improvement-service)).
 
 > Public services are built with public money. So unless there’s a good reason not to, the code they’re based should be made available for people to reuse and build on. **UK Government - [Digital Service Standard](https://www.gov.uk/service-manual/service-standard) (12. Make new source code open)**
 
