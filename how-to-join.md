@@ -6,7 +6,7 @@ This GitHub organisation is for analysts in Scottish Government to code and coll
 
 ## Request to join
 
-[Create an issue in this repository](https://github.com/DataScienceScotland/welcome/issues) using the template for new member requests.
+[Create an issue in this repository](https://github.com/DataScienceScotland/welcome/issues/new/choose) using the template for new member requests.
 
 You will be asked to confirm the following:
 
@@ -14,7 +14,7 @@ You will be asked to confirm the following:
 - You have read and understand the [user responsibilities](http://saltire/orgspaces/Analytic-Professions/Analytical-Tools/Pages/version-control-guide.aspx) for using GitHub in Scottish Government
 - You have read the guidance in the [welcome](https://github.com/DataScienceScotland/welcome) repo
 - You have your gov.scot email address visible on your GitHub profile
-- You have two factor authentication enabled on your GitHub account
+- You understand that you will periodically need to confirm your ongoing need for access
 
 Your request will then be reviewed by an organisation admin and you will receive an e-mail with an invite to join the organisation.
 
