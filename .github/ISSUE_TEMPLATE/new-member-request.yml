@@ -1,0 +1,32 @@
+name: Request to join organisation
+description: Use this template to request to join the Data Science Scotland organisation.
+title: "New member request"
+labels: member-request
+assignees: 
+  - alicebyers5
+  - tomwilsonsco
+  - jsphdms
+body:
+  - type: checkboxes
+    attributes:
+      label: "To join the organisation, please confirm the following:"
+      options:
+        - label: I am a current employee of the Scottish Government
+          required: true
+        - label: I have read and understand the [user responsibilities](http://saltire/orgspaces/Analytic-Professions/Analytical-Tools/Pages/version-control-guide.aspx) for using GitHub in Scottish Government
+          required: true
+        - label: I have read the guidance in the [welcome](https://github.com/DataScienceScotland/welcome) repo
+          required: true
+        - label: I have my gov.scot email address public on my GitHub profile
+          required: true
+        - label: I understand I will periodically need to confirm my ongoing need for access
+          required: true
+  - type: markdown
+    attributes:
+      value: "## What next?"
+  - type: markdown
+    attributes:
+      value: Thank you for your request. Once it has been reviewed by an organisation admin, you will receive an e-mail with an invite to join the organisation. 
+  - type: markdown
+    attributes:
+      value: If you have any issues with the above, please [get in touch](mailto:alice.byers@gov.scot;joseph.adams@nrscotland.gov.uk;thomas.wilson@gov.scot?subject=DataScienceScotland%20Member%20Request) with the organisation admins via email.
