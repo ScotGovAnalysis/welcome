@@ -11,3 +11,4 @@ A work-in-progress list of GitHub organisations in the public sector. Please [op
 * [Public Health Scotland](https://github.com/Public-Health-Scotland)
 
 ## Rest of UK
+* [British Geological Survey](https://github.com/BritishGeologicalSurvey)
