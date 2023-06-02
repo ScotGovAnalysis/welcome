@@ -24,7 +24,7 @@ A work-in-progress list of GitHub organisations in the public sector. Please [op
 
 ## Rest of UK and Ireland
 
-### Government Departments
+### UK Government Departments
 
 -   [Cabinet Office](https://github.com/cabinetoffice)
 -   [Department for Environment, Food & Rural Affairs](https://github.com/defra)
@@ -53,5 +53,6 @@ A work-in-progress list of GitHub organisations in the public sector. Please [op
 ### Other
 
 -   [British Geological Survey](https://github.com/BritishGeologicalSurvey)
+-   [Central Statistics Office, Ireland](https://github.com/CSOIreland)
 -   [Trafford Council](https://github.com/TraffordCouncil)
 -   [Trafford Council Data Lab](https://github.com/trafforddatalab)
