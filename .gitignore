@@ -16,6 +16,9 @@ data/
 # SPSS formats #
 *.[sS][aA][vV]
 
+# SAS format #
+*.[sS][aA][sS]7[bB][dD][aA][tT]
+
 # R data files #
 *.[rR][dD][aA][tT][aA]
 *.[rR][dD][sS]
