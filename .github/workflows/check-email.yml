@@ -1,0 +1,19 @@
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  check-email:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: EddieHubCommunity/gh-action-community/src/welcome@main
+        if: contains(github.event.issue.labels.*.name, 'member-request')
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          issue-message: |
+              Have you double checked that your email address is public on your [GitHub profile](https://github.com/${{github.event.issue.user.login}})? You should be able to see it on the left hand side under your profile photo/icon.
+
+              If you can't see your email address:
+              * Click the 'Update profile' button
+              * Use the dropdown next to the envelope icon :envelope: to select your gov.scot email
+              * :sparkles: **Remember to click the green 'Save' button** :sparkles:
