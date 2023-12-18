@@ -4,7 +4,7 @@
 
 New to GitHub or this organisation? Welcome!
 
-This GitHub organisation is for analysts across Scotland’s public sector to code and collaborate in the open. You don’t need permission to code here. But you should read this guidance before starting.
+This GitHub organisation is for analysts in the Scottish Government and its agencies to code and collaborate in the open.
 
 Analysts in Scottish Government and departments should use this GitHub organisation. This keeps everything in one place and makes it simpler to manage membership.
 
