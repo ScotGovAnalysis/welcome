@@ -39,7 +39,7 @@ You are responsible for anything you share online. Before sharing anything on Gi
 - Check with your line manager if you’re unsure of anything
 
 ## Security
-Don’t share anything you shouldn’t share. Store these separately from your code (e.g. as [environment variables](https://csgillespie.github.io/efficientR/r-startup.html#renviron)):
+Don’t share anything you shouldn’t share. Store these separately from your code (e.g. as [environment variables](https://csgillespie.github.io/efficientR/set-up.html#renviron)):
 
 - Usernames
 - Passwords
