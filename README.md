@@ -1,9 +1,10 @@
-# welcome
+# Scottish Government Analysis
+
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 
 New to GitHub or this organisation? Welcome!
 
-This GitHub organisation is for analysts across Scotland’s public sector to code and collaborate in the open. You don’t need permission to code here. But you should read this guidance before starting.
+This GitHub organisation is for analysts in the Scottish Government and its agencies to code and collaborate in the open.
 
 Analysts in Scottish Government and departments should use this GitHub organisation. This keeps everything in one place and makes it simpler to manage membership.
 
@@ -14,9 +15,9 @@ Analysts in Scottish Government and departments should use this GitHub organisat
 - Enable [two-factor authentication](https://help.github.com/en/articles/about-two-factor-authentication) (@jsphdms personally finds LastPass Authenticator user friendly)
 - Add a (work appropriate) photo and username
 - Add your contact details and employer
-- [Request to join](https://github.com/DataScienceScotland/welcome/issues/new?assignees=alicebyers5%2Ctomwilsonsco%2Cjsphdms&labels=member-request&template=new-member-request.yml&title=New+member+request) the [DataScienceScotland](https://github.com/DataScienceScotland) organisation.
+- [Request to join](https://github.com/ScotGovAnalysis/welcome/issues/new?assignees=alicebyers5%2Ctomwilsonsco%2Cjsphdms&labels=member-request&template=new-member-request.yml&title=New+member+request) the [Scottish Government Analysis](https://github.com/ScotGovAnalysis) organisation.
 - [Set your membership to public](https://help.github.com/en/articles/publicizing-or-hiding-organization-membership)
-- [Create a repo](https://help.github.com/en/articles/create-a-repo) and set DataScienceScotland as the owner. Make sure it’s relevant to other analysts within Scotland’s public sector. A relevant example might be: source code for an R Shiny app that accompanies an official statistic. A non-relevant example might be: code for a personal learning project.
+- [Create a repo](https://help.github.com/en/articles/create-a-repo) and set ScotGovAnalysis as the owner. Make sure it’s relevant to other analysts within Scotland’s public sector. A relevant example might be: source code for an R Shiny app that accompanies an official statistic. A non-relevant example might be: code for a personal learning project.
 - [Add topics to your repo](https://help.github.com/en/articles/classifying-your-repository-with-topics) to help keep them organised. Your topics can include things about what area your repo is used for (e.g. exports) or what organisation it is for.
 - Tell people about your repo
 
@@ -38,7 +39,7 @@ You are responsible for anything you share online. Before sharing anything on Gi
 - Check with your line manager if you’re unsure of anything
 
 ## Security
-Don’t share anything you shouldn’t share. Store these separately from your code (e.g. as [environment variables](https://csgillespie.github.io/efficientR/r-startup.html#renviron)):
+Don’t share anything you shouldn’t share. Store these separately from your code (e.g. as [environment variables](https://csgillespie.github.io/efficientR/set-up.html#renviron)):
 
 - Usernames
 - Passwords
