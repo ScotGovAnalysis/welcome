@@ -5,7 +5,6 @@ labels: member-request
 assignees: 
   - alicebyers5
   - tomwilsonsco
-  - jsphdms
 body:
   - type: checkboxes
     attributes:
@@ -33,4 +32,4 @@ body:
       value: Thank you for your request. Once it has been reviewed by an organisation admin, you will receive an e-mail with an invite to join the organisation. 
   - type: markdown
     attributes:
-      value: If you have any issues with the above, please [get in touch](mailto:alice.byers@gov.scot;joseph.adams@nrscotland.gov.uk;thomas.wilson@gov.scot?subject=Scottish%20Government%20Analysis%20Member%20Request) with the organisation admins via email.
+      value: If you have any issues with the above, please [get in touch](mailto:alice.byers@gov.scot;thomas.wilson@gov.scot?subject=Scottish%20Government%20Analysis%20Member%20Request) with the organisation admins via email.
