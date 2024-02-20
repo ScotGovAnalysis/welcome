@@ -31,7 +31,7 @@ There are many [benefits to coding in the open](https://gds.blog.gov.uk/2017/09/
 ## Your responsibilities
 You are responsible for anything you share online. Before sharing anything on GitHub, reflect on your ethical, legal and professional obligations. Things to consider:
 
-- Certain legislation may apply to your work such as [the GDPR](https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/) and the [Data Protection Act 2018](https://ico.org.uk/for-organisations/data-protection-act-2018/)
+- Certain legislation may apply to your work such as [the GDPR](https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/) and the [Data Protection Act 2018](https://www.gov.uk/data-protection)
 - You may be bound by the [Code of Practice for Statistics](https://www.statisticsauthority.gov.uk/code-of-practice/) (in particular [T6: Data governance](https://www.statisticsauthority.gov.uk/code-of-practice/the-code/trustworthiness/t6-data-governance/))
 - GitHub stores a full history of your files and this GitHub organisation is a public space
 - Your organisation may have an internal policy that covers coding in the open (e.g. an IT code of conduct)
@@ -48,15 +48,14 @@ Don’t share anything you shouldn’t share. Store these separately from your c
 - Tokens
 - Absolute filepaths
 
-Use [pre-commit and pre-push hooks](https://github.com/ukgovdatascience/dotfiles) for an extra layer of protection. If you accidentally publish a secret; [assume it is compromised](https://www.gov.uk/government/publications/open-source-guidance/security-considerations-when-coding-in-the-open#assume-accidental-publications-are-compromised), revoke and refresh the secret. Do this no matter how quickly the secret was removed.
+Use a [.gitignore](https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files) to reduce the risk of accidentally pushing files. A template .gitignore is included in this Welcome repository. If you accidentally publish a secret; [assume it is compromised](https://www.gov.uk/government/publications/open-source-guidance/security-considerations-when-coding-in-the-open#assume-accidental-publications-are-compromised), revoke and refresh the secret. Do this no matter how quickly the secret was removed.
 
 ## Good practices
 These practices might be a little overwhelming if you’re new to coding in the open. It’s not vital to adopt everything from the beginning and some practices may not be appropriate for a given project. These are suggestions to learn over time. The easier ones are near the top:
 
 - Write [good READMEs](http://r-pkgs.had.co.nz/release.html#important-files)
 - Add a [lifecycle badge](https://www.tidyverse.org/lifecycle/) to your README
-- Use GitHub to [manage projects](https://youtu.be/nI5VdsVl0FM)
-- Use a [workflow strategy](https://youtu.be/aJnFGMclhU8)
+- Use GitHub [Issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues) and [Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects) for code project management.
 - Write [good commit messages](https://github.com/alphagov/styleguides/blob/master/git.md)
 - Raise [good pull requests](https://www.annashipman.co.uk/jfdi/good-pull-requests.html)
 
@@ -67,12 +66,11 @@ If you’re new to Git/GitHub it’s worth reflecting on how you learn best. A m
   - Anna Shipman (previous Open Source Lead at GDS) compiled these [resources for coding in the open](https://www.annashipman.co.uk/jfdi/open-code-resources.html)
   - The National Archives advise that code created by civil servants is [subject to Crown copyright](https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/open-government-licence/open-software-licences/). The default licence for that is the Open Government Licence.
 - Networks
-  - The [datasciencescotland](datasciencescotland.slack.com) slack has a version control channel
-  - The [govdatascience](govdatascience.slack.com) slack has a git channel
+  - The [govdatascience](govdatascience.slack.com) slack has a # chat-git channel
 - Git and GitHub
   - Jenny Bryan (Software engineer at RStudio) authored [Git and GitHub with R](https://happygitwithr.com/)
   - A number of SAS products have [Git integration](https://blogs.sas.com/content/sasdummy/2019/01/17/git-in-sas/)
-  - GitHub has a [community forum](https://github.community/), [guides](https://guides.github.com/), [YouTube tutorials](https://www.youtube.com/githubguides), a [learning lab](https://lab.github.com/), and this article on how to [set up Git](https://help.github.com/en/articles/set-up-git)
+  - GitHub has a [community forum](https://github.community/), [guides](https://guides.github.com/) and this article on how to [set up Git](https://help.github.com/en/articles/set-up-git)
   - RStudio has an article on [version control with RStudio](https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN)
   - [Pro Git](https://git-scm.com/book/en/v2/) covers using Git on the command line
 
