@@ -53,7 +53,7 @@ Use a [.gitignore](https://docs.github.com/en/get-started/getting-started-with-g
 ## Good practices
 These practices might be a little overwhelming if you’re new to coding in the open. It’s not vital to adopt everything from the beginning and some practices may not be appropriate for a given project. These are suggestions to learn over time. The easier ones are near the top:
 
-- Write [good READMEs](http://r-pkgs.had.co.nz/release.html#important-files)
+- Write [good READMEs](https://r-pkgs.org/other-markdown.html#sec-readme)
 - Add a [lifecycle badge](https://www.tidyverse.org/lifecycle/) to your README
 - Use GitHub [Issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues) and [Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects) for code project management.
 - Write [good commit messages](https://github.com/alphagov/styleguides/blob/master/git.md)
