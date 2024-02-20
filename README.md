@@ -48,7 +48,7 @@ Don’t share anything you shouldn’t share. Store these separately from your c
 - Tokens
 - Absolute filepaths
 
-Use a [.gitignore](https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files) to reduce the risk of accidentally pushing files. A template .gitignore is included in this Welcome repository. If you accidentally publish a secret; [assume it is compromised](https://www.gov.uk/government/publications/open-source-guidance/security-considerations-when-coding-in-the-open#assume-accidental-publications-are-compromised), revoke and refresh the secret. Do this no matter how quickly the secret was removed.
+Use a [.gitignore](https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files) to reduce the risk of accidentally pushing files. A template [.gitignore](.gitignore) is included in this Welcome repository. If you accidentally publish a secret; [assume it is compromised](https://www.gov.uk/government/publications/open-source-guidance/security-considerations-when-coding-in-the-open#assume-accidental-publications-are-compromised), revoke and refresh the secret. Do this no matter how quickly the secret was removed.
 
 ## Good practices
 These practices might be a little overwhelming if you’re new to coding in the open. It’s not vital to adopt everything from the beginning and some practices may not be appropriate for a given project. These are suggestions to learn over time. The easier ones are near the top:
