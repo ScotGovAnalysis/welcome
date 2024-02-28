@@ -41,6 +41,7 @@ A work-in-progress list of GitHub organisations in the public sector. Please [op
 -   [Standard](https://github.com/DFEAGILEDEVOPS)
 -   [Digital](https://github.com/DFE-Digital)
 -   [Analytical Services](https://github.com/dfe-analytical-services)
+-   [R Community](https://github.com/DfE-R-Community)
 
 #### Office for National Statistics
 
