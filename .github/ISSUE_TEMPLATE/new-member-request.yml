@@ -3,7 +3,7 @@ description: Use this template to request to join the Scottish Government Analys
 title: "New member request"
 labels: member-request
 assignees: 
-  - alicebyers5
+  - alice-hannah
   - tomwilsonsco
 body:
   - type: checkboxes
@@ -32,4 +32,4 @@ body:
       value: Thank you for your request. Once it has been reviewed by an organisation admin, you will receive an e-mail with an invite to join the organisation. 
   - type: markdown
     attributes:
-      value: If you have any issues with the above, please [get in touch](mailto:alice.byers@gov.scot;thomas.wilson@gov.scot?subject=Scottish%20Government%20Analysis%20Member%20Request) with the organisation admins via email.
+      value: If you have any issues with the above, please [get in touch](mailto:alice.hannah@gov.scot;thomas.wilson@gov.scot?subject=Scottish%20Government%20Analysis%20Member%20Request) with the organisation admins via email.
