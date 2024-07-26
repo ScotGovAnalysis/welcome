@@ -12,7 +12,7 @@ body:
       options:
         - label: I am a current employee of the Scottish Government
           required: true
-        - label: I have read and understand the [user responsibilities](https://erdm.scotland.gov.uk/documents/A42743383/details) for using GitHub in Scottish Government
+        - label: I have read and understand the [user responsibilities](https://scotsconnect.sharepoint.com/sites/StatisticsGroup-Org-SG/SitePages/GitHub-User-Responsibilities.aspx) for using GitHub in Scottish Government
           required: true
         - label: I have read the guidance in the [welcome](https://github.com/ScotGovAnalysis/welcome) repo
           required: true
