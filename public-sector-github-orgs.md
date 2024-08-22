@@ -28,8 +28,8 @@ A work-in-progress list of GitHub organisations in the public sector. Please [op
 
 -   [Cabinet Office](https://github.com/cabinetoffice)
 -   [Department for Environment, Food & Rural Affairs](https://github.com/defra)
--   [Department for International Trade](https://github.com/uktrade)
--   [Department for Levelling Up, Housing and Communities](https://github.com/communitiesuk)
+-   [Department for Business and Trade](https://github.com/uktrade)
+-   [Ministry of Housing, Communities and Local Government](https://github.com/communitiesuk)
 -   [Department for Transport](https://github.com/department-for-transport)
 -   [Foreign, Commonwealth and Development Office](https://github.com/DFID)
 -   [Government Digital Service](https://github.com/alphagov)
