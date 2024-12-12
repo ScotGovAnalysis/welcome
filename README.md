@@ -15,7 +15,7 @@ Analysts in Scottish Government and departments should use this GitHub organisat
 - Enable [two-factor authentication](https://help.github.com/en/articles/about-two-factor-authentication)
 - Add a (work appropriate) photo and username
 - Add your contact details and employer
-- [Request to join](https://github.com/ScotGovAnalysis/welcome/issues/new?assignees=alicebyers5%2Ctomwilsonsco&labels=member-request&template=new-member-request.yml&title=New+member+request) the [Scottish Government Analysis](https://github.com/ScotGovAnalysis) organisation.
+- [Request to join](https://github.com/ScotGovAnalysis/welcome/issues/new?assignees=alice-hannah%2Ctomwilsonsco&labels=member-request&template=new-member-request.yml&title=New+member+request) the [Scottish Government Analysis](https://github.com/ScotGovAnalysis) organisation.
 - [Set your membership to public](https://help.github.com/en/articles/publicizing-or-hiding-organization-membership)
 - [Create a repo](https://help.github.com/en/articles/create-a-repo) and set ScotGovAnalysis as the owner. Make sure it’s relevant to other analysts within Scotland’s public sector. A relevant example might be: source code for an R Shiny app that accompanies an official statistic. A non-relevant example might be: code for a personal learning project.
 - [Add topics to your repo](https://help.github.com/en/articles/classifying-your-repository-with-topics) to help keep them organised. Your topics can include things about what area your repo is used for (e.g. exports) or what organisation it is for.
