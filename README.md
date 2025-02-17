@@ -66,7 +66,7 @@ If you’re new to Git/GitHub it’s worth reflecting on how you learn best. A m
   - Anna Shipman (previous Open Source Lead at GDS) compiled these [resources for coding in the open](https://www.annashipman.co.uk/jfdi/open-code-resources.html)
   - The National Archives advise that code created by civil servants is [subject to Crown copyright](https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/open-government-licence/open-software-licences/). The default licence for that is the Open Government Licence.
 - Networks
-  - The [govdatascience](govdatascience.slack.com) slack has a # chat-git channel
+  - The [govdatascience](https://govdatascience.slack.com/) slack has a `#chat-git` channel
 - Git and GitHub
   - Jenny Bryan (Software engineer at RStudio) authored [Git and GitHub with R](https://happygitwithr.com/)
   - A number of SAS products have [Git integration](https://blogs.sas.com/content/sasdummy/2019/01/17/git-in-sas/)
