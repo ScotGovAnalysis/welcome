@@ -68,6 +68,7 @@ If you’re new to Git/GitHub it’s worth reflecting on how you learn best. A m
 - Networks
   - The [govdatascience](https://govdatascience.slack.com/) slack has a `#chat-git` channel
 - Git and GitHub
+  - The Turing Way series of version control training sessions cover a range of topics. Both [video recordings and training materials](https://github.com/aim-rsf/training/tree/main/version-control#readme) are available.
   - Jenny Bryan (Software engineer at RStudio) authored [Git and GitHub with R](https://happygitwithr.com/)
   - A number of SAS products have [Git integration](https://blogs.sas.com/content/sasdummy/2019/01/17/git-in-sas/)
   - GitHub has a [community forum](https://github.community/), [guides](https://guides.github.com/) and this article on how to [set up Git](https://help.github.com/en/articles/set-up-git)
