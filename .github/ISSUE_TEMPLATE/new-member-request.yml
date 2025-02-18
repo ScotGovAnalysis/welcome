@@ -23,7 +23,7 @@ body:
   - type: markdown
     attributes: 
       value: |
-        **Note**: To make your email address public, go to your [profile settings](https://github.com/settings/profile), select your gov.scot email address from the dropdown under 'Public email', and click the green 'Update profile' button. Follow these [instructions for more help](https://github.com/ScotGovAnalysis/welcome/make-email-public.md).         
+        **Note**: To make your email address public, go to your [profile settings](https://github.com/settings/profile), select your gov.scot email address from the dropdown under 'Public email', and click the green 'Update profile' button. Follow these [instructions for more help](https://github.com/ScotGovAnalysis/welcome/blob/main/make-email-public.md).         
   - type: markdown
     attributes:
       value: "## What next?"

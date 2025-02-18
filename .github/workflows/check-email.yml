@@ -13,4 +13,4 @@ jobs:
           issue-message: |
               Have you double checked that your email address is public on your [GitHub profile](https://github.com/${{github.event.issue.user.login}})? You should be able to see it on the left hand side under your profile photo/icon.
 
-              If you can't see your email address, please [follow these instructions](https://github.com/ScotGovAnalysis/welcome/make-email-public.md) to add it.
+              If you can't see your email address, please [follow these instructions](https://github.com/ScotGovAnalysis/welcome/blob/main/make-email-public.md) to add it.
