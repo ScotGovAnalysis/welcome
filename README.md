@@ -14,8 +14,8 @@ Analysts in Scottish Government and departments should use this GitHub organisat
   - Some people use their GitHub accounts for things that aren’t part of their job, such as personal projects or freelance work. If this applies to you, add a personal email address and then make sure you author commits with the appropriate email address, depending on the project you’re working on.
 - Enable [two-factor authentication](https://help.github.com/en/articles/about-two-factor-authentication)
 - Add a (work appropriate) photo and username
-- Add your contact details and employer
-- [Request to join](https://github.com/ScotGovAnalysis/welcome/issues/new?assignees=alice-hannah%2Ctomwilsonsco&labels=member-request&template=new-member-request.yml&title=New+member+request) the [Scottish Government Analysis](https://github.com/ScotGovAnalysis) organisation.
+- [Make your gov.scot email address public on your profile](https://github.com/ScotGovAnalysis/welcome/make-email-public.md)
+- [Request to join](https://github.com/ScotGovAnalysis/welcome/issues/new?template=new-member-request.yml) the [Scottish Government Analysis](https://github.com/ScotGovAnalysis) organisation.
 - [Set your membership to public](https://help.github.com/en/articles/publicizing-or-hiding-organization-membership)
 - [Create a repo](https://help.github.com/en/articles/create-a-repo) and set ScotGovAnalysis as the owner. Make sure it’s relevant to other analysts within Scotland’s public sector. A relevant example might be: source code for an R Shiny app that accompanies an official statistic. A non-relevant example might be: code for a personal learning project.
 - [Add topics to your repo](https://help.github.com/en/articles/classifying-your-repository-with-topics) to help keep them organised. Your topics can include things about what area your repo is used for (e.g. exports) or what organisation it is for.
@@ -66,8 +66,9 @@ If you’re new to Git/GitHub it’s worth reflecting on how you learn best. A m
   - Anna Shipman (previous Open Source Lead at GDS) compiled these [resources for coding in the open](https://www.annashipman.co.uk/jfdi/open-code-resources.html)
   - The National Archives advise that code created by civil servants is [subject to Crown copyright](https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/open-government-licence/open-software-licences/). The default licence for that is the Open Government Licence.
 - Networks
-  - The [govdatascience](govdatascience.slack.com) slack has a # chat-git channel
+  - The [govdatascience](https://govdatascience.slack.com/) slack has a `#chat-git` channel
 - Git and GitHub
+  - The Turing Way series of version control training sessions cover a range of topics. Both [video recordings and training materials](https://github.com/aim-rsf/training/tree/main/version-control#readme) are available.
   - Jenny Bryan (Software engineer at RStudio) authored [Git and GitHub with R](https://happygitwithr.com/)
   - A number of SAS products have [Git integration](https://blogs.sas.com/content/sasdummy/2019/01/17/git-in-sas/)
   - GitHub has a [community forum](https://github.community/), [guides](https://guides.github.com/) and this article on how to [set up Git](https://help.github.com/en/articles/set-up-git)
