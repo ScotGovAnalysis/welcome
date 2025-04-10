@@ -57,3 +57,4 @@ A work-in-progress list of GitHub organisations in the public sector. Please [op
 -   [Central Statistics Office, Ireland](https://github.com/CSOIreland)
 -   [Trafford Council](https://github.com/TraffordCouncil)
 -   [Trafford Council Data Lab](https://github.com/trafforddatalab)
+-   [Public Health Wales](https://github.com/Public-Health-Wales)
