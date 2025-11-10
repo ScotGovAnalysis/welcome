@@ -9,6 +9,7 @@ A work-in-progress list of GitHub organisations in the public sector. Please [op
 -   [Marine Scotland Science](https://github.com/MarineScotlandScience)
 -   [Transport Scotland](https://github.com/TransportScotland)
 -   [Public Health Scotland](https://github.com/Public-Health-Scotland)
+-   [Improvement Servce](https://github.com/Improvement-Service)
 
 ### Local authorities
 
