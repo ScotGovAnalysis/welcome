@@ -1,18 +1,22 @@
 # Connecting to GitHub using HTTPS
 
-When you are prompted to authenticate will depend on whether you have cloned a public or private repository. This will happen immediately when trying to clone a private repository, or the first time you push if a public repository.
+The first time you try to use an HTTPS connection you will be prompted to authenticate. You only need to do this once. Your credentials will be stored and used automatically next time.
+
+Note: When you are prompted to authenticate will depend on whether you have cloned a public or private repository. This will happen immediately when trying to clone or pull from a private repository, or the first time you push if a public repository.
 
 1.	In Git Bash or RStudio, clone a repository from GitHub using the HTTPS URL.
 
-2.  A GitHub window will pop up to prompt you to authenticate. (Note: This may appear behind your open Git Bash or RStudio window.) Click the blue button to 'Sign in with your browser'. You will be directed to a browser window.
+    <img width="350" alt="" src="https://github.com/user-attachments/assets/5876967f-dbcc-4d88-9986-4bca107b1874" />
+
+3.  A GitHub window will pop up to prompt you to authenticate. (Note: This may appear behind your open Git Bash or RStudio window.) Click the blue button to 'Sign in with your browser'. You will be directed to a browser window.
 
     <img width="315" alt="" src="https://github.com/user-attachments/assets/930d4f53-2805-4448-82b3-0fa76d13d445" />
 
-3.  If it is your first time using HTTPS, you may see a page asking you to 'Authorize Git Credential Manager'. If so, click the green button to 'Authorize git-ecosystem'.
+4.  If it is your first time using HTTPS, you may see a page asking you to 'Authorize Git Credential Manager'. If so, click the green button to 'Authorize git-ecosystem'.
 
     <img width="315" alt="" src="https://github.com/user-attachments/assets/62ab04c6-d201-4bb7-b044-807bc8902095" />
 
-4.  You will then be prompted to login to your GitHub account (if you aren't already logged in). 
+5.  You will then be prompted to login to your GitHub account (if you aren't already logged in). 
 
     It might be unclear when authentication has been successful. You may see a 'Can't reach this page' error, however if you navigate back to Git Bash or RStudio, you should see that authentication has completed. 
 
