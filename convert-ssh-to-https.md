@@ -21,3 +21,5 @@ It is not necessary to re-clone repositories you have already cloned using SSH. 
     ```
     git remote get-url origin
     ```
+
+Guidance is also available on [using HTTPS authentication for the first time](using-https.md).
