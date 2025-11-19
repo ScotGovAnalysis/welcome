@@ -1,6 +1,6 @@
 # Connecting to GitHub using HTTPS
 
-The first time you try to use an HTTPS connection you will be prompted to authenticate. You only need to do this once. Your credentials will be stored and used automatically next time.
+The first time you try to use an HTTPS connection you will be prompted to authenticate. You only need to do this once. Your GitHub username and password will be stored in Windows Credentials Manager and used automatically next time.
 
 Note: When you are prompted to authenticate will depend on whether you have cloned a public or private repository. This will happen immediately when trying to clone or pull from a private repository, or the first time you push if a public repository.
 
