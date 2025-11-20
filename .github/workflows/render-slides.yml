@@ -1,0 +1,26 @@
+on: push
+
+name: Render Quarto slides
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Render Quarto
+        uses: quarto-dev/quarto-actions/render@v2
+        with:
+          path: version-control-slides/slides.qmd
+        
+      - name: Commit rendered site
+        run: |
+          git config --local user.name "$GITHUB_ACTOR"
+          git config --local user.email "$GITHUB_ACTOR@users.noreply.github.com"
+          git add version-control-slides/slides.html
+          git commit -m "Re-build slides" || echo "No changes to commit"
+          git push origin || echo "No changes to commit"
