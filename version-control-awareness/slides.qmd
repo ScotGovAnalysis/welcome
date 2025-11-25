@@ -6,7 +6,7 @@ format:
   revealjs: 
     embed-resources: true
     slide-number: true
-    logo: images/SG-logo.svg
+    logo: images/sg-logo.jpg
     controls: true
     theme: [default, styles.scss]
 lang: en
