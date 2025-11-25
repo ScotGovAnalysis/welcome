@@ -15,7 +15,7 @@ jobs:
       - name: Render
         uses: quarto-dev/quarto-actions/render@v2
         with:
-          path: version-control-awareness/slides.qmd
+          path: version-control-awareness/index.qmd
           
       - name: Commit rendered README
         run: |
