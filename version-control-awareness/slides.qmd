@@ -181,7 +181,7 @@ GitHub is a web interface for hosting version controlled code and can be used to
 
 * [Join the Scottish Government Analysis GitHub organisation](https://github.com/ScotGovAnalysis/welcome/issues/new?template=new-member-request.yml)
    
-* [Use HTTPS to connect local repositories to GitHub](https://github.com/ScotGovAnalysis/welcome/blob/main/using-https.md)
+* [Use HTTPS to connect local repositories to GitHub](https://scotgovanalysis.github.io/welcome/using-https)
 
 
 ## External learning {.smaller}
