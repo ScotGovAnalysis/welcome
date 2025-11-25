@@ -12,11 +12,16 @@ jobs:
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
           
-      - name: Render and Publish
-        uses: quarto-dev/quarto-actions/publish@v2
+      - name: Render
+        uses: quarto-dev/quarto-actions/render@v2
         with:
-          path: version-control-slides/slides.qmd
-          target: gh-pages
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          path: version-control-awareness/slides.qmd
+          
+      - name: Commit rendered README
+        run: |
+          git config --local user.name "$GITHUB_ACTOR"
+          git config --local user.email "$GITHUB_ACTOR@users.noreply.github.com"
+          git add version-control-awareness/slides.html
+          git commit -m "Re-build slides" || echo "No changes to commit"
+          git push origin || echo "No changes to commit"
         
