@@ -8,7 +8,6 @@ format:
     slide-number: true
     logo: images/SG-logo.svg
     controls: true
-    link-external-newwindow: true
     theme: [default, styles.scss]
 lang: en
 ---
