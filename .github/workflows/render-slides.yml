@@ -21,7 +21,7 @@ jobs:
         run: |
           git config --local user.name "$GITHUB_ACTOR"
           git config --local user.email "$GITHUB_ACTOR@users.noreply.github.com"
-          git add version-control-awareness/slides.html
+          git add version-control-awareness/index.html
           git commit -m "Re-build slides" || echo "No changes to commit"
           git push origin || echo "No changes to commit"
         
