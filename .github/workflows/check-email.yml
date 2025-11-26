@@ -2,6 +2,8 @@ on:
   issues:
     types: [opened]
 
+name: Check email public
+
 jobs:
   check-email:
     runs-on: ubuntu-latest
