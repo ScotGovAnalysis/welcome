@@ -107,7 +107,7 @@ A version controlled code repository will usually contain files for one distinct
 
 ![](images/github.svg){.absolute alt="GitHub logo" top=25 right=50 height=75}
 
-Analysts in Scottish Government and departments should use the [Scottish Government Analysis GitHub organisation](https://github.com/ScotGovAnalysis) to store their repositories.
+[Scottish Government Analysis GitHub organisation](https://github.com/ScotGovAnalysis)
 
 <div style="text-align: center;"><img src="images/scotgovanalysis.png" alt="Screenshot of Scottish Government Analysis GitHub organisation homepage" align="middle" height="400" width="800"/></div>
 
