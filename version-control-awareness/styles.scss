@@ -1,0 +1,58 @@
+/*-- scss:defaults --*/
+
+$presentation-title-slide-text-align: left !default;
+
+$presentation-font-smaller: 0.9 !default;
+
+$link-color: #0065bd;
+
+#title-slide .title {
+  font-size: 2.5em;
+  margin-bottom: 2.5rem;
+  color: $link-color;
+}
+
+
+
+/*-- scss:rules --*/
+
+.reveal .progress {
+	height: 6px;
+	color: $link-color;
+}
+
+.reveal .controls {
+	color: $link-color;
+}
+
+.reveal .slides h2 {
+  margin-top: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+.reveal .slides h3 {
+  font-size: 1em !important;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.reveal .slides h4 {
+  font-size: 0.8em;
+  font-weight: normal;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.reveal .slide-logo {
+  height: 5% !important;
+  width: auto !important;
+  max-width: unset !important;
+  max-height: unset !important;
+  margin-bottom: 1%;
+  margin-right: 1%;
+}
+
+.reveal .footer a {
+  color: $link-color;
+  font-size: 1.5rem !important;
+}

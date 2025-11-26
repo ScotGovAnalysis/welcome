@@ -1,0 +1,218 @@
+---
+title: "Introduction to Git and GitHub"
+author: "Data Innovation Team"
+institute: "Scottish Government"
+format:
+  revealjs: 
+    embed-resources: true
+    slide-number: true
+    logo: images/sg-logo.jpg
+    controls: true
+    theme: [default, styles.scss]
+lang: en
+---
+
+## What is version control? {.smaller}
+
+Version control is the practice of tracking and managing changes to files. 
+
+<div style="line-height:50%;"><br></div>
+
+Does this look familiar?
+
+```
+stats-publication/
+  ├── publication-analysis-code.R
+  ├── publication-analysis-code-v2.R
+  ├── publication-analysis-code-v2 NEW METHODOLOGY.R
+  ├── publication-analysis-code-v2 NEW METHODOLOGY AH-changes.R
+  ├── publication-analysis-code-final.R
+  └── publication-analysis-code-final April 2023.R
+```
+
+<div style="line-height:50%;"><br></div>
+
+This is a valid form of version control - just not a very effective one!
+
+
+## Git 
+
+![](images/git.svg){.absolute alt="git logo" top=25 right=50 height=75}
+
+[Git](https://git-scm.com/) is a free and open source software for version control. 
+
+It allows you to:
+
+* Record any changes you make to files (these records are called 'commits')
+
+* Undo changes and revert to previous version of files (if required)
+
+* Collaborate with others on the same project using 'branches'
+
+::: {.notes}
+* Using Git means you don’t need to save multiple copies of the same file to retain older versions. This information is stored by Git.
+:::
+
+
+## Git Commits {.smaller}
+
+![](images/git.svg){.absolute alt="git logo" top=25 right=50 height=75}
+
+Commits contain information on:
+
+* **what** change was made,
+* **when** the change was made,
+* **why** the change was made, and
+* **who** made the change.
+
+Git tracks changes to the content of files, not just the file as a whole. This means the information above can be recorded for changes as small as one character on one line of code.
+
+
+## What is in a code repository?
+
+A version controlled code repository will usually contain files for one distinct project and can contain:
+
+* Code (e.g. R scripts)
+* Documentation (e.g. README)
+* Configuration files
+* ...but [**NOT DATA**]{style="color:#D72828;"}!
+
+::: {.notes}
+* If you're using R, your code repository will be your RStudio Project.
+
+* NOT DATA because: 
+  * Git is not designed to track changes to data files; 
+  * when using Git in conjunction with GitHub, you will often not want to publish the data files you're using in your code.
+:::
+
+
+## GitHub {.smaller}
+
+![](images/github.svg){.absolute alt="GitHub logo" top=25 right=50 height=75}
+
+[GitHub](https://github.com/) is a web interface for hosting version controlled code and can be used to:
+
+* Make code publicly available (although repositories can also be 'private')
+
+* Facilitate code review (using 'pull requests')
+
+* Manage projects using tools such as issue tracking
+
+* Navigate Git history and view previous versions of files
+
+* View other people's code and collaborate
+
+
+## GitHub Organisation
+
+![](images/github.svg){.absolute alt="GitHub logo" top=25 right=50 height=75}
+
+[Scottish Government Analysis GitHub organisation](https://github.com/ScotGovAnalysis)
+
+<div style="text-align: center;"><img src="images/scotgovanalysis.png" alt="Screenshot of Scottish Government Analysis GitHub organisation homepage" align="middle" height="400" width="800"/></div>
+
+
+## How to use Git and GitHub
+
+* Git can be used without GitHub
+
+* GitHub is often used as the main copy of a code repository (or 'remote'). Analysts or developers can take a copy (or 'clone') of the repository from GitHub to work on locally.
+
+* Use Git locally to track changes and regularly 'push' to GitHub
+
+* Use GitHub to facilitate code review and merging of branches
+
+::: {.notes}
+* Git is used via a terminal-like tool called Git Bash, or via RStudio.
+:::
+
+
+## Why use Git and GitHub? {.smaller}
+
+* Preferable to lots of copies of the same file with various names!
+
+* [Reproducible Analytical Pipelines (RAP)](https://analysisfunction.civilservice.gov.uk/support/reproducible-analytical-pipelines/)
+
+   * **Reproducible**: You can rerun your code as it was at any point in time.
+   
+   * **Auditable**: You have a record of when changes were made and why.
+   
+   * **Transparent**: Code is publicly available on GitHub and available for others to review or reuse.
+   
+   * **Good quality**: Code review is built into the GitHub workflow.
+
+
+## Security
+
+* Don't track data files (or other sensitive files)
+
+  * Use a `.gitignore` file to exclude specific files, file extensions or folders.
+
+  * Use the [Scottish Government template .gitignore](https://github.com/ScotGovAnalysis/welcome/blob/main/.gitignore).
+
+* Don't embed sensitive information in your code.
+
+* Consult the [Scottish Government GitHub User Responsibilities](https://scotsconnect.sharepoint.com/sites/StatisticsGroup-Org-SG/SitePages/GitHub-User-Responsibilities.aspx) document before using GitHub.
+
+::: {.notes}
+* Can include specific files, folders or file extensions; e.g. csv files, a 'data' folder, or a config.yml file.
+
+* Alternatively, these files can be stored outside of your code repository.
+
+* All of this is good practice whether you are using GitHub or not.
+:::
+
+
+## Getting started on SCOTS (1)
+
+* Familiarise yourself with the [Version Control guidance page](https://scotsconnect.sharepoint.com/sites/StatisticsGroup-Org-SG/SitePages/Version-Control.aspx) on SharePoint
+
+* Explore the public code repositories in the [Scottish Government Analysis GitHub organisation](https://github.com/ScotGovAnalysis) to see how other teams are using Git and GitHub
+
+* [Install and set up Git on your SCOTS laptop](https://scotsconnect.sharepoint.com/sites/StatisticsGroup-Org-SG/SitePages/Version-Control.aspx#using-git-within-scots)
+
+## Getting started on SCOTS (2)
+
+* Read the [Scottish Government GitHub User Responsibilities](https://scotsconnect.sharepoint.com/sites/StatisticsGroup-Org-SG/SitePages/GitHub-User-Responsibilities.aspx) document
+
+* [Create a free GitHub account](https://github.com/join) (if you don't already have one)
+
+* [Join the Scottish Government Analysis GitHub organisation](https://github.com/ScotGovAnalysis/welcome/issues/new?template=new-member-request.yml)
+   
+* [Use HTTPS to connect local repositories to GitHub](https://scotgovanalysis.github.io/welcome/using-https)
+
+
+## External learning {.smaller}
+
+* ONS Learning Hub self-led courses: 
+  * [Command Line Basics](https://gss.civilservice.gov.uk/training/command-line-basics/)
+  * [Introduction to Git](https://analysisfunction.civilservice.gov.uk/training/introduction-to-git/)
+
+* The Turing Way training videos and [materials](https://github.com/aim-rsf/training/tree/main/version-control):
+  * [Introduction to Git](https://youtu.be/z9-qAGq78qE)
+  * [Introduction to GitHub](https://youtu.be/9mnKloUiTUc)
+  * [GitHub for Collaboration](https://youtu.be/ejx_M5cgMsI)
+
+* [Happy Git with R](https://happygitwithr.com/)
+
+
+## External guidance
+
+* Duck Book
+
+   * [Version Control](https://best-practice-and-impact.github.io/qa-of-code-guidance/version_control.html)
+   
+   * [Using Git safely](https://best-practice-and-impact.github.io/qa-of-code-guidance/version_control.html#avoid-committing-sensitive-information-to-git-repositories)
+   
+   * [GitHub features](https://best-practice-and-impact.github.io/qa-of-code-guidance/version_control.html#using-github)
+   
+*  [Open sourcing analytical code](https://analysisfunction.civilservice.gov.uk/policy-store/open-sourcing-analytical-code/) (Government Analysis Function)
+
+
+## Contact
+
+Data Innovation Team, Scottish Government
+
+* [Alice Hannah](mailto:alice.hannah@gov.scot)
+
+* [Tom Wilson](mailto:thomas.wilson@gov.scot)
