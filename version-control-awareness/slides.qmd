@@ -213,6 +213,4 @@ A version controlled code repository will usually contain files for one distinct
 
 Data Innovation Team, Scottish Government
 
-* [Alice Hannah](mailto:alice.hannah@gov.scot)
-
 * [Tom Wilson](mailto:thomas.wilson@gov.scot)
